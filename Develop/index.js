@@ -14,7 +14,8 @@ const questions = [{
 
         message: "What is your GitHub username?",
 
-        name: "username"
+        name: "username",
+
     },
     // Project title
     {
@@ -22,7 +23,9 @@ const questions = [{
 
         message: "What is the name of your Project?",
 
-        name: "title"
+        name: "title",
+
+        default: "Project Name Here"
     },
     // Description
     {
@@ -30,7 +33,9 @@ const questions = [{
 
         message: "Please write a short description.",
 
-        name: "description"
+        name: "description",
+
+        default: "Desciption Here"
     },
     // License
     {
@@ -40,7 +45,7 @@ const questions = [{
 
         name: "license",
 
-        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "MPL 2.0", "None"]
+        choices: ["MIT", "APACHE_2.0", "GPL_3.0", "BSD_3", "MPL_2.0", "None"]
     },
     // Installation
     {
@@ -68,7 +73,9 @@ const questions = [{
 
         message: "What does the user need to know about using the repo?",
 
-        name: "usage"
+        name: "usage",
+
+        default: "Usage Details Here"
     },
     // Contributing
     {
@@ -76,7 +83,9 @@ const questions = [{
 
         message: "What does the user need to know about contributing to the repo?",
 
-        name: "contributing"
+        name: "contributing",
+
+        default: "Contributing Details Here"
     },
     // User GitHub email
     {
@@ -84,7 +93,9 @@ const questions = [{
 
         message: "What is your email?",
 
-        name: "email"
+        name: "email",
+
+        default: "placeholder@email.com"
     }
 ];
 
