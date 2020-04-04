@@ -1,11 +1,11 @@
 
-# Cool Project
+# Project Name Here
 
 
-![License: APACHE_2.0](https://img.shields.io/badge/License-APACHE_2.0-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Description
-This project is super cool and does many cool things
+Description Here
 
 ## Table of Contents
 
@@ -31,15 +31,15 @@ npm i
 
 ## Usage
 
-Just install dependencies and you're ready to roll
+Usage Details Here
 
 ## Licensing
 
-APACHE_2.0
+MIT
 
 ## Contributing
 
-No need to contribute, it's too perfect.
+Contributing Details Here
 
 ## Testing
 

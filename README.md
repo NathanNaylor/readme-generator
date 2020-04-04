@@ -1,127 +1,58 @@
-# Unit 09 Node.js and ES6+ Homework: Good README Generator
 
-Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
+# Read Me Generator
 
-```sh
-node index.js
-```
 
-The user will be prompted for their GitHub username, which will be used to make a call to the GitHub API to retrieve their email and profile image. They will then be prompted with questions about their project.
+![License: None](https://img.shields.io/badge/License-None-blue.svg)
 
-The README will be populated with the following:
+## Description
+This is a program designed to help the busy developer with their README files. It streamlines the process of README creation and gives users a ready to use layout with most important features.
 
-* At least one badge
-* Project title
-* Description
-* Table of Contents
-* Installation
-* Usage
-* License
-* Contributing
-* Tests
-* Questions
-  * User GitHub profile picture
-  * User GitHub email
+<iframe src="https://giphy.com/gifs/QBizJEZbf1JCMwiIKE/html5" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/QBizJEZbf1JCMwiIKE/html5">via GIPHY</a></p>
 
-Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
+## Table of Contents
 
-```
-AS A developer
+* [Installation](#installation)
 
-I WANT a README generator
+* [Usage](#usage)
 
-SO THAT I can easily put together a good README for a new project
-```
+* [License](#license)
 
-Refer to the [Good README guide](../../01-HTML-Git-CSS/04-Supplemental/Good-README-Guide/README.md).
+* [Contributing](#contributing)
 
-## Business Context
+* [Tests](#tests)
 
-When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
+* [Questions](#questions)
 
-## Minimum Application Requirements
+## Installation
 
-* Meets [Submission Requirements](#submission-requirements) in following section.
-
-* Functional application.
-
-* GitHub repository with a unique name and a README describing project.
-
-* The generated README includes a bio image from the user's GitHub profile.
-
-* The generated README includes the user's email.
-
-* The generated README includes the following sections: 
-  * Title
-  * Description
-  * Table of Contents
-  * Installation
-  * Usage
-  * License
-  * Contributing
-  * Tests
-  * Questions
-
-* The generated README includes 1 badge that's specific to the repository.
+Install required dependencies using the following command:
 
 ```
-GIVEN the developer has a GitHub profile and a repository
-
-WHEN prompted for the developer's GitHub username and repo specific information
-
-THEN a README for the repo is generated
+npm i
 ```
-- - -
 
-## Submission Requirements
+## Usage
 
-Because this is a CLI App, there will be no need to deploy it to Heroku. This time, though, you need to include screenshots, a gif, and/or a video showing us that you got the app working with no bugs. You can include these screenshots or a link to a video in a `README.md` file.
+Just install the dependencies and you're ready to go!
 
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/`.
+## Licensing
 
-* `node_modules` is not tracked and uploaded to GitHub. (Hint: It is easy if you create your `.gitignore` file before installing dependencies with npm.)
+None
 
-* Repo **MUST** include `package.json` with required dependencies. (Hint: Run `npm init` when you first setup the project before installing any dependencies.)
+## Contributing
 
-* Include screenshots (or a video) of typical user flows through your application. This includes views of the prompts and the responses after their selection.
+If you find any bugs or issues please contact me through the info in the Questions Section.
 
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers/other developers in the future what you built and why, and to show how it works.
+## Testing
 
-* Because screenshots (and well-written READMEs) are extremely important in the context of GitHub, this will be part of the grading.
+To run tests, use the following command:
 
-## Commit Early and Often
+```
+npm test
+```
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+## Questions
 
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+<img src="https://avatars3.githubusercontent.com/u/61394430?v=4" alt="GitHub User Icon" style="border-radius: 30px" width="50">  
 
-* Your commit history allows you to revert your code base in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have more than 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* An animated GIF demonstrating the app functionality
-
-* A generated README.md file for a project repo.
-
-* The URL of the GitHub repository
-
-## Video Demo
-
-Link to video demonstration of an example solution to this assignment. Your version does not need to be an exact copy. It should satisfy all requirements in this document. [video demo](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b9855380-983d-484f-9b6e-ab8e01041336)
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+If you have questions about the repo, open an issue or contact [NathanNaylor](https://github.com/NathanNaylor) directly at nathannaylors@gmail.com.

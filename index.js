@@ -4,7 +4,7 @@ const path = require("path")
 const inquirer = require("inquirer")
 
 // TODO: import api and generateMarkdown modules from ./utils/
-const api = require("./utils/api")
+const api = require("./utils/api.js")
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // TODO: Add inquirer question objects to questions array. This should
@@ -35,7 +35,7 @@ const questions = [{
 
         name: "description",
 
-        default: "Desciption Here"
+        default: "Description Here"
     },
     // License
     {
@@ -117,7 +117,7 @@ function init() {
             console.log(response)
             const data = {...response, ...answers };
             console.log(data)
-            writeToFile("output/README.md", generateMarkdown(data));
+            writeToFile("./output/README.md", generateMarkdown(data));
 
         })
 
